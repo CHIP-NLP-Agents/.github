@@ -31,7 +31,6 @@
 - Keep tests up-to-date with code changes.
 - Code that can be shared between tools should be in shared module files, not the main module file.
 
-
 ## Logging Standards
 - Use Python's built-in `logging` module. Never use raw `print()` statements for diagnostic or runtime information.
 - Show complete absolute file paths when referring to files in log statements.
@@ -50,7 +49,7 @@
 - Run tests via `pytest` to verify changes. Never modify failing tests just to make them pass.
 
 
-# Project Spec: Place Information abou the actual project 
+# Project Spec: Place Information about the actual project 
 
 ## Project Guidelines
 

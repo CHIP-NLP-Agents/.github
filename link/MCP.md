@@ -16,22 +16,19 @@
 - Java MCP SDK : https://github.com/modelcontextprotocol/java-sdk
 
 
-
 ## Tutorials / Courses
 
 - Build an MCP Server : https://modelcontextprotocol.io/docs/2026-07-28/develop/build-server
 
 
-
 ## Examples
 
+- Postgres-mcp : https://github.com/crystaldba/postgres-mcp
 
 
 ## Special Topics
 
 - MCP Streaming : https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http
-
-
 
 
 ## Videos
