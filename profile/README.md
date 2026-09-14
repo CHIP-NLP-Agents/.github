@@ -26,3 +26,4 @@
 > [!NOTE] 
 > This `.github` repository must be **public** or the `profile/README.md` will not be displayed on the organization landing page.
 
+https://github.com/CHIP-NLP-Agents/.github

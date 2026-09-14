@@ -1,4 +1,4 @@
-# Agent2Agent (A2A)
+# Agent Skills (SKILL.md)
 
 
 ## Main Documentation
