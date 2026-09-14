@@ -22,3 +22,7 @@
 - When you release a project, ***do not*** copy the AGENTS.md, skills, tasks, etc.  Just the code, tests, and resources
 - Consider checking in something like a "README-AI-Assist.md" that lists things like your coding agent, llm(s), temp and top P, etc.
 
+
+> [!NOTE] 
+> This `.github` repository must be **public** or the `profile/README.md` will not be displayed on the organization landing page.
+
