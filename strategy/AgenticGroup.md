@@ -1,7 +1,8 @@
 
 # Intro
 
-
+This document contains some thoughts and general strategies for our projects.  
+For more detailed information on tasks, see our Agentic AI Activities [Trello Board](https://trello.com/b/xkqOubJM/agentic-ai-activities).
 
 
 ## Orchestrator
@@ -37,7 +38,11 @@ A table in a file containing gold annotations for all required Agent input and o
 
 ## Communication
 
-Whenever possible, we should use streaming responses from our Agents.  Asynchronous streams may allow some useful control such as task cancelation, async skill launches, instant user feedback, etc.  It may be useful for writing per-doc files while whole-patient processing is ongoing, providing possible input for other async per-doc parts of the workflow, as well as possible "restart" points should a run fail partway through.
+Whenever possible, we should use streaming responses from our Agents.  Asynchronous streams may allow some useful control such as task cancelation, async skill launches, instant user feedback, etc.  It may be useful for writing per-doc files while whole-patient processing is ongoing, providing possible input for other async per-doc parts of the workflow, as well as possible "restart" points should a run fail partway through.  
+In addition, we should stick to JSON-RPC.  A2A can also use gRPC, but for implementation and debugging json is much easier to deal with. 
+It also stays consistent with our use of JSON-RPC for MCP, which (to date) does not support gRPC.  
+We should *not* use stdio for anything. 
+It is *ok* if you are working day 1 of a prototype, but after that switch to JSON-RPC. 
 
 
 ## Agent Output

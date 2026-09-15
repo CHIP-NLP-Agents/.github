@@ -10,6 +10,9 @@ Contains files with web links on different topics related to NLP and AI research
 ### `profile` Directory
 Contains the `CHIP NLP Agents` organization information. This directory holds profile details, documentation, and other organizational resources related to the project.
 
+### `strategy` Directory
+Contains files with thoughts, strategies, and plans on different topics and projects for this group.
+
 ### `template` Directory
 Contains useful file templates that can be used as starting points for various project components. These templates help maintain consistency and speed up development.
 
