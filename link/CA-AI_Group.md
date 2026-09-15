@@ -1,5 +1,7 @@
 # Info specific to our CHIP Agentic AI (CA-AI) Group
 
+Group members are referred to as **CHIP NLP Agents** :smirk:
+
 ## Main Documentation
 
 - Trello Board : https://trello.com/b/xkqOubJM/agentic-ai-activities
